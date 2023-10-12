@@ -36,7 +36,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/clientes/1",
+							"raw": "http://localhost:8080/api/v1/autores/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -45,7 +45,7 @@
 							"path": [
 								"api",
 								"v1",
-								"clientes",
+								"autores",
 								"1"
 							]
 						}
@@ -59,7 +59,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"apellido\": \"topadora\",\r\n    \"nombre\": \"topa\",\r\n    \"biografia\": \"54\"\r\n}",
+							"raw": "{\r\n    \"apellido\": \"Fernandez\",\r\n    \"nombre\": \"Fernando\",\r\n    \"biografia\": \"96\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -88,7 +88,7 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/clientes/1",
+							"raw": "http://localhost:8080/api/v1/autores/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -97,7 +97,7 @@
 							"path": [
 								"api",
 								"v1",
-								"clientes",
+								"autores",
 								"1"
 							]
 						}
@@ -181,7 +181,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titulo\": \"titl\",\r\n    \"fecaha\": 50,\r\n    \"genero\": \"genre\",\r\n    \"paginas\": 50\r\n}",
+							"raw": "{\r\n    \"titulo\": \"title\",\r\n    \"fecaha\": 50,\r\n    \"genero\": \"genre\",\r\n    \"paginas\": 500\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -303,7 +303,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"calle\": \"calle\",\r\n    \"numero\": \"numero\"\r\n}",
+							"raw": "{\r\n    \"calle\": \"Falsa\",\r\n    \"numero\": \"123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -430,7 +430,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"denominacion\": \"Godoy Cruz\"\r\n}",
+							"raw": "{\r\n    \"denominacion\": \"Las Heras City\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -552,7 +552,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"apellido\": \"topadora\",\r\n    \"nombre\": \"topa\"\r\n}",
+							"raw": "{\r\n    \"apellido\": \"Rodriguez\",\r\n    \"nombre\": \"Eugenio\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
